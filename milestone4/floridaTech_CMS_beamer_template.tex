@@ -1,0 +1,164 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%% LaTeX beamer metropolis slides template for the High Energy Physics  %%%%%%%%%%
+%%%%%%%%% Group (CMS) at the Florida Institute of Technology. Uses the         %%%%%%%%%%
+%%%%%%%%% metropolis theme by Matthias Vogelgesang.			       %%%%%%%%%%
+%%%%%%%%% https://ctan.org/pkg/beamertheme-metropolis?lang=en                  %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Stephen D. Butalla %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2021/02/01 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[10pt]{beamer}
+\usetheme{metropolis}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage[scale=2]{ccicons}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{transparent}
+\usepackage{eso-pic}
+\graphicspath{	{images/}	} % Change to your graphics path
+\usepackage{amsmath}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{listings}
+\lstset{language=Python,
+    basicstyle=\ttfamily\bfseries,
+    commentstyle=\color{red}\itshape,
+  showstringspaces=false,
+  keywordstyle=\color{blue}\bfseries}
+\setbeamertemplate{bibliography item}[text]
+
+\DeclareMathOperator\erf{erf} % define the error function for math mode
+
+
+\definecolor{FTRed}{RGB}{114, 116, 156} % defines Florida Tech red (crimson)_ color
+\setbeamercolor{progress bar}{fg=FTRed} % color progress 
+\setbeamercolor{frametitle}{fg=white,bg=FTRed} % set top bar of slide to FTRed
+
+%Hides section slides
+\metroset{sectionpage=none}
+
+\usepackage{pgfplots}
+\usepgfplotslibrary{dateplot}
+
+\usepackage{xspace}
+\newcommand{\themename}{\textbf{\textsc{metropolis}}\xspace}
+
+ \hypersetup{
+     colorlinks=true,
+     linkcolor=blue,
+     filecolor=blue,
+     citecolor = black,      
+     urlcolor=FTRed,
+     }
+
+
+\title{Milestone 4 Presentation}
+\subtitle{lECTURE ON WHATEver}
+\date{\today}
+\author{Spencer Hirsch}
+\institute{}
+% \titlegraphic{
+% 	\begin{picture}(0,0)
+%     \put(70,-175){\makebox(0,0)[rt]{\includegraphics[height=3cm]{FloridaTechNewLogo.png}}}
+%   \end{picture}
+% \begin{picture}(0,0)
+%     \put(320,-160){\makebox(0,0)[rt]{\includegraphics[height=3cm]{CMSlines.png}}}
+%   \end{picture}
+%   \begin{picture}(0,0)
+%     \put(320,10){\makebox(0,0)[rt]{\includegraphics[height=2.2cm]{cern_logo.png}}}
+%   \end{picture}
+  
+ 
+ %}
+
+% Add footer
+\setbeamertemplate{footline}[text line]{%
+  \parbox{\linewidth}{\vspace{-0.15cm}\hspace{4cm} S.\ Hirsch  -- ``Milestone 4'' -- \today \hfill\insertpagenumber}}
+
+
+\begin{document}
+
+
+\maketitle
+
+%Adds Florida Tech logo to each page after this command
+% \addtobeamertemplate{frametitle}{}{%
+% \begin{tikzpicture}[remember picture,overlay]
+% \node[anchor=south west, yshift=-4pt] at (current page.south west) {\includegraphics[height=1.2cm]{FloridaTechNewLogo}};
+% \end{tikzpicture}}
+% \addtobeamertemplate{frametitle}{}{%
+% \begin{tikzpicture}[remember picture,overlay]
+% \node[anchor=north east,yshift=2pt,xshift=1.5pt] at (current page.north east) {\includegraphics[height=0.8cm]{CMS-Color-Var1.pdf}};
+% \end{tikzpicture}}
+% \addtobeamertemplate{frametitle}{}{%
+% \begin{picture}(0,0)
+%     \put(305,29.2){\makebox(0,0)[rt]{\includegraphics[height=0.8cm]{cern_logo_1}}}
+%   \end{picture}}
+  
+% If you want a table of contents,
+% uncomment lines 93--97 for default
+% table of contents, or 101--112 for
+% the two-column table of contents
+
+%Default table of contents
+%\begin{frame}{Table of contents}
+ %\setbeamertemplate{section in toc}[sections numbered]
+  %\tableofcontents[hideallsubsections]
+%\end{frame}
+
+% Two column table of contents
+%\begin{frame}{Table of contents}
+%        \begin{columns}
+%            \begin{column}{.5\textwidth}
+%             \setbeamertemplate{section in toc}[sections numbered]
+  %              \tableofcontents[sections=1- 6]
+  %              
+     %       \end{column}
+        %    \begin{column}{.5\textwidth}
+           %  \setbeamertemplate{section in toc}[sections numbered]
+           %     \tableofcontents[sections=7-11]
+           % \end{column}
+       % \end{columns}
+   % \end{frame}
+
+
+
+
+% \begin{frame}[fragile]{Frame with columns}
+% \vspace{-0.5cm}
+% \begin{columns}
+% \begin{column}{0.5\textwidth}
+% \begin{itemize}\scriptsize{
+% \itemsep0em
+% \item Column 0}
+% \end{itemize}
+% \end{column}
+% \begin{column}{0.5\textwidth}
+% \begin{itemize}\scriptsize{
+% \itemsep0em
+% \item Column 1}
+% \end{itemize}
+% \end{column}
+% \end{columns}
+% \end{frame}
+
+% \begin{frame}[fragile]{Frame with figure}
+
+% \center
+% \includegraphics[width=3cm]{CMS-Color-Var1.pdf}\\
+% \scriptsize{The CMS logo.}\\
+
+
+% \end{frame}
+
+\begin{frame}[fragile]{Frame with equation}
+
+$$i\gamma^{\mu}\partial_{\mu}\psi-\psi=0$$
+\end{frame}
+
+\end{document}
+
+
+

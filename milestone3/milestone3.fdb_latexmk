@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1680221737 "/Users/spencerhirsch/Documents/GitHub/junior_project/milestone3/milestone3.tex" "milestone3.pdf" "milestone3" 1680221737
-  "/Users/spencerhirsch/Documents/GitHub/junior_project/milestone3/milestone3.tex" 1680221737 4747 82513209cec195d2fe25aa2cd20743b6 ""
+["pdflatex"] 1680487625 "/Users/spencerhirsch/Documents/GitHub/junior_project/milestone3/milestone3.tex" "milestone3.pdf" "milestone3" 1680487626
+  "/Users/spencerhirsch/Documents/GitHub/junior_project/milestone3/milestone3.tex" 1680487625 7687 2067c638daed05df2e1297d068fd3530 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -64,9 +64,9 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1674061236 2826446 c95caf68c56b67e62bd3e0f4499af8ae ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "milestone3.aux" 1680221737 686 470fdebd29f279999e89f3533b8c7bc8 "pdflatex"
+  "milestone3.aux" 1680487626 686 1021e496efe4cd3ab536fd12e6d22f30 "pdflatex"
   "milestone3.out" 0 -1 0 "pdflatex"
-  "milestone3.tex" 1680221737 4747 82513209cec195d2fe25aa2cd20743b6 ""
+  "milestone3.tex" 1680487625 7687 2067c638daed05df2e1297d068fd3530 ""
   (generated)
   "milestone3.aux"
   "milestone3.log"
